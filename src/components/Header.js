@@ -30,6 +30,10 @@ const CustomAvatar = styled(Avatar)`
   margin-right: 1%;
 `;
 
+const CustomFormControl = styled(FormControl)`
+  margin-left: 2%;
+`;
+
 const Header = () => {
   const [value, setValue] = React.useState(0);
   const [selectedValue, setSelectedValue] = React.useState("");
@@ -59,8 +63,8 @@ const Header = () => {
           src="https://i.pinimg.com/564x/04/55/2e/04552e8c76b3e5dec67bd23345b26971.jpg"
           sx={{ width: 56, height: 56 }}
         />
-        <Typography variant="h7">Ducki ducki duck</Typography>
-        <FormControl variant="outlined" sx={{ backgroundColor: 'transparent' }}>
+        <Typography variant="h7">Ducki</Typography>
+        <CustomFormControl variant="outlined" sx={{ backgroundColor: 'transparent' }}>
         <InputLabel id="dropdown-label"></InputLabel>
         <Select
           labelId="dropdown-label"
@@ -69,14 +73,14 @@ const Header = () => {
           onChange={handleChange}
           label="Select an Option"
         >
-          <MenuItem value="">
+          {/* <MenuItem value="">
             <em>None</em>
-          </MenuItem>
-          <MenuItem value="option1">Option 1</MenuItem>
-          <MenuItem value="option2">Option 2</MenuItem>
-          <MenuItem value="option3">Option 3</MenuItem>
+          </MenuItem> */}
+          <MenuItem value="option1">Profile</MenuItem>
+          <MenuItem value="option2">Settings</MenuItem>
+          <MenuItem value="option3">Sign Out</MenuItem>
         </Select>
-      </FormControl>
+      </CustomFormControl>
       </CustomToolbar>
     </AppBar>
 
