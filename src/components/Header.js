@@ -33,7 +33,13 @@ const CustomAvatar = styled(Avatar)`
 
 const CustomFormControl = styled(FormControl)`
   margin-left: 1%;
+  border: none;
+
 `;
+
+// const CustomFormControl:hover = styled(FormControl)`
+// margin-left: 1%;
+// `;
 
 const Header = () => {
   const [value, setValue] = React.useState(0);
@@ -65,7 +71,7 @@ const Header = () => {
           sx={{ width: 56, height: 56 }}
         />
         <Typography variant="h7">Ducki</Typography>
-        <CustomFormControl variant="outlined" sx={{ backgroundColor: 'transparent' }}>
+        <CustomFormControl variant="outlined" sx={{  }}>
         <InputLabel id="dropdown-label"></InputLabel>
         <Select
           labelId="dropdown-label"
