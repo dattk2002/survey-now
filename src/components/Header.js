@@ -26,12 +26,12 @@ const CustomToolbar = styled(Toolbar)`
 `;
 
 const CustomAvatar = styled(Avatar)`
-  margin-left: 45%;
+  margin-left: 43%;
   margin-right: 1%;
 `;
 
 const CustomFormControl = styled(FormControl)`
-  margin-left: 2%;
+  margin-left: 1%;
 `;
 
 const Header = () => {
