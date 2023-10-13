@@ -19,6 +19,7 @@ const CustomBottomNavigation = styled(BottomNavigation)`
 const CustomBottomNavigationAction = styled(BottomNavigationAction)`
   margin: 0 10%;
   color: white;
+  padding: 0 5%;
 `;
 
 const CustomToolbar = styled(Toolbar)`
