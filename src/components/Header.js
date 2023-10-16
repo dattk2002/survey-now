@@ -13,7 +13,7 @@ import { FormControl, InputLabel, MenuItem, Select } from "@mui/material";
 //CSS component
 const CustomBottomNavigation = styled(BottomNavigation)`
   margin-left: 15%;
-  background-color: green;
+  background-color: #00B14F;
 `;
 
 const CustomBottomNavigationAction = styled(BottomNavigationAction)`
@@ -23,7 +23,7 @@ const CustomBottomNavigationAction = styled(BottomNavigationAction)`
 `;
 
 const CustomToolbar = styled(Toolbar)`
-  background-color: green;
+  background-color: #00B14F;
 `;
 
 const CustomAvatar = styled(Avatar)`
