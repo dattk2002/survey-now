@@ -107,7 +107,16 @@
 }
 
 .div-store {
+  display: grid;
+  margin-left: 1.5%;
+}
 
+.div-store .img-first {
+  margin-top: 20px;
+}
+
+.div-store .img-second {
+  margin-top: 20px;
 }
 
 

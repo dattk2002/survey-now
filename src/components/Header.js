@@ -59,7 +59,7 @@ const Header = () => {
           value={value}
           onChange={(event, newValue) => {
             setValue(newValue);
-          }}
+          }}  
         >
           <CustomBottomNavigationAction label="Home" />
           <CustomBottomNavigationAction label="About us" />

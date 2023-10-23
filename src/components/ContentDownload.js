@@ -17,8 +17,8 @@ const ContentDownload = () => {
           OR
         </Divider>
         <div className="div-store">
-          <img src={appstore} alt="app-store" />
-          <img src={googleplay} alt="google-store" />
+          <img className="img-first" src={appstore} alt="app-store" />
+          <img className="img-second" src={googleplay} alt="google-store" />
         </div>
       </div>
     </div>
